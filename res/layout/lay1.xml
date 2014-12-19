@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+     
+     <Button 
+         android:id="@+id/confirm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_marginTop="100dp"
+			android:background="#fff"
+         android:text="免费注册"
+         />
+     <Button 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_marginTop="50dp"
+       	 android:background="#fff"
+         android:text="更换账户"
+         />
+     <Button 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:background="#fff"
+         android:layout_marginTop="50dp"
+         android:text="收支管理"
+         />
+     <Button 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="50dp"
+         android:gravity="center"
+         android:background="#fff"
+         android:text="优惠活动"
+         />
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="300dp"
+         android:background="#fff"
+         android:gravity="center"
+         android:text="退出" />
+
+</LinearLayout>
